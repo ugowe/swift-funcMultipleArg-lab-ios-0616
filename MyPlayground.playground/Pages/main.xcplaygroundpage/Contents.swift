@@ -15,8 +15,11 @@
  */
 // write your code here
 
+func continentInfo(name: String, numberOfCountries: Int) {
+    print("\(name) is a continent which contains \(numberOfCountries) countries.")
+}
 
-
+continentInfo("Europe", numberOfCountries: 50)
 
 /*: question2
  ### 2. Can you see why the code below doesn't work? Fix the function call to get rid of the error.
@@ -25,7 +28,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting("Danny",greeting: "Hello")
 
 
 
@@ -37,7 +40,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth("November", days: 30)
+daysInMonth("November", days: "30")
 
 
 
